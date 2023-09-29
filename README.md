@@ -32,7 +32,7 @@
 ### Fact Table Type:
   - Periodic
 
-### Fact Table Granularity:/n
+### Fact Table Granularity:
   - Monitoring performance of a student and department based on grades
   - Monitoring performance of a degree program based on total enrollment of the students
 
