@@ -2,11 +2,11 @@
 
 ## Examine Northeastern Graduate Student Course enrollment and performance
 
-Facts & Measures:
+### Facts & Measures:
   • Fact_Performance (Grades)
   • Fact_Enrollment (Total enrollment)
 
-Dimensions:
+### Dimensions:
   • College (Slowly Changing Dimension)
   • Department (Shrunken Dimension)
   • Degree Program (Shrunken Dimension)
@@ -17,7 +17,7 @@ Dimensions:
   • Geography (Confirmed, Role-Playing Dimension)
   • Date (Static Dimension)
 
-  Business Questions:
+### Business Questions:
 
   -- Q.1 : What are the core requirements and elective courses for these programs
   -- Q.2 : What classes (course & section) did students complete in a semester & what were their grades
@@ -27,15 +27,15 @@ Dimensions:
   -- Q.6 : What teachers taught classes in a degree program in a semester
   -- Q.7 : Who are the students enrolled in a degree program and attributes  such as ID, email, date of birth (DOB), hometown, campus/off-campus address if applicable, etc.
 
-Important Grains of Business Process:
+### Important Grains of Business Process:
   course_name, course_type, course_section, semester_name. semester_year, enrollment_date, drop_date, student details, faculty details, degree program
 
-Fact Table Type: Periodic
+### Fact Table Type: Periodic
 
-Fact Table Granularity:
+### Fact Table Granularity:
   • Monitoring performance of a student and department based on grades
   • Monitoring performance of a degree program based on total enrollment of the students
 
-Fact Attribute Types:
+### Fact Attribute Types:
   • Grades: Non-additive
   • Total enrollment: Additive
