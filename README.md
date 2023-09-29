@@ -1,6 +1,6 @@
 # University_Data_Model
 
-## Examine Northeastern Graduate Student Course enrollment and performance
+## Examining Northeastern Graduate Student Course enrollment and performance
 
 ### Facts & Measures:
   - Fact_Performance (Grades)
