@@ -2,7 +2,7 @@
 
 ## Examine Northeastern Graduate Student Course enrollment and performance
 
-### Facts & Measures:
+### Facts & Measures:/n
   • Fact_Performance (Grades)
   • Fact_Enrollment (Total enrollment)
 
